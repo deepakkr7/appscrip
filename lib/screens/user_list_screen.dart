@@ -40,8 +40,7 @@ class _UserListScreenState extends State<UserListScreen> {
               onChanged: (value) => context.read<UserProvider>().searchUsers(value),
             ),
           ),
-          Card(
-            child: Expanded(
+           Expanded(
               child: Consumer<UserProvider>(
                 builder: (context, userProvider, child) {
                   if (userProvider.isLoading) {
@@ -73,7 +72,6 @@ class _UserListScreenState extends State<UserListScreen> {
                 },
               ),
             ),
-          ),
         ],
       ),
     );

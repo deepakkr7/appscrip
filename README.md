@@ -1,16 +1,5 @@
-# appscrip
+AppScrip
+it is mobile application for listing users.that include user name,phone number,email,address,company name and website.
 
-A new Flutter project.
+while using this  app the home page shows a list of users and while clicking on user name its navigate into another page that displays the entire details of the user.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
